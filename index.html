@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altitud · Ritmos de entrenamiento con precisión científica</title>
+  <meta name="description" content="Calculadora de ritmos de entrenamiento personalizada basada en tu VDOT real y las condiciones meteorológicas del día.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site" id="siteHeader">
+    <div class="wrap nav">
+      <a href="#top" class="brand" aria-label="Ir al inicio">
+        <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M16 2C9 10 4 14 4 20a12 12 0 0024 0c0-6-5-10-12-18Z" stroke="#6ee7a8" stroke-width="1.6"/>
+          <path d="M16 8c-4.5 5-8 7.5-8 12a8 8 0 0016 0c0-4.5-3.5-7-8-12Z" fill="#6ee7a8" fill-opacity="0.18" stroke="#ff6b45" stroke-width="1.2"/>
+        </svg>
+        Altitud
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#calculadora">Calculadora</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#roadmap">Plataforma</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#calculadora" class="btn btn-primary">Calcular mis ritmos</a>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    
+    <section class="hero">
+      <div class="hero-bg-image" aria-hidden="true"></div>
+      <svg class="hero-contours" id="contourSVG" viewBox="0 0 1200 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        </svg>
+
+      <div class="wrap hero-inner">
+        <div>
+          <div class="eyebrow">Ciencia del entrenamiento · Modelo VDOT</div>
+          <h1 class="hero-title">Cada ritmo tiene un <em>porqué</em> fisiológico<span class="accent">.</span></h1>
+          <p class="hero-sub">Altitud traduce tu marca real de 5&nbsp;km, la distancia de hoy y el clima de tu ciudad en cinco ritmos de entrenamiento calculados con precisión de laboratorio — no con una tabla genérica.</p>
+          <div class="hero-cta">
+            <a href="#calculadora" class="btn btn-primary">Calcular mis ritmos ahora</a>
+            <a href="#como-funciona" class="btn btn-ghost">Ver el modelo →</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal">
+          <div class="hero-panel-title">Precisión del motor Altitud</div>
+          <div class="stat-row">
+            <span class="label">Variables fisiológicas cruzadas</span>
+            <span class="num trail counter" data-target="7">0</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">Corredores calibrados en el modelo</span>
+            <span class="num counter" data-target="48200">0</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">Corrección ambiental en vivo</span>
+            <span class="num ember">Sí</span>
+          </div>
+        </aside>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span>Desliza</span><span class="line"></span></div>
+    </section>
+
+    <section class="calc-section" id="calculadora">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">La herramienta</div>
+          <h2>Tu plan de ritmos, calculado para hoy</h2>
+          <p>Introduce tu marca de referencia y los datos del entrenamiento. Cruzamos tu fisiología con la meteorología real del momento en que vas a correr mediante Open-Meteo.</p>
+        </header>
+
+        <div class="calc-shell reveal">
+          <div class="calc-grid">
+
+            <form class="calc-form" id="paceForm" aria-label="Calculadora de ritmos">
+              <div class="field">
+                <label for="pb5kMin">Tu marca oficial de 5&nbsp;km (Min y Seg)</label>
+                <div class="pb-inputs">
+                  <input type="number" id="pb5kMin" min="10" max="45" placeholder="MM" required aria-label="Minutos">
+                  <input type="number" id="pb5kSec" min="0" max="59" placeholder="SS" required aria-label="Segundos">
+                  <input type="text" value="min:seg" disabled aria-hidden="true" style="opacity:0.4; text-align:center;" tabindex="-1">
+                </div>
+                <div class="field-hint" id="pbHint">Ejemplo: 24 min 30 s → introduce 24 y 30.</div>
+              </div>
+
+              <div class="field">
+                <label for="distance">Distancia del entrenamiento de hoy</label>
+                <select id="distance" required>
+                  <option value="">Selecciona distancia</option>
+                  <option value="5">5 km — rodaje corto</option>
+                  <option value="8">8 km</option>
+                  <option value="10">10 km</option>
+                  <option value="12">12 km</option>
+                  <option value="16" selected>16 km</option>
+                  <option value="21.1">21,1 km — media maratón</option>
+                  <option value="30">30 km</option>
+                  <option value="42.2">42,2 km — maratón</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="trainTime">Hora aproximada del entrenamiento</label>
+                <input type="time" id="trainTime" value="08:00" required>
+              </div>
+
+              <div class="field">
+                <label for="city">Ciudad o localidad</label>
+                <input type="text" id="city" placeholder="Ej. Barcelona, Madrid..." required>
+                <div class="field-hint">Obtenemos los datos climáticos exactos usando geolocalización.</div>
+              </div>
+
+              <div id="formError" class="weather-warning" style="display:none; margin-top:1rem;" aria-live="assertive"></div>
+
+              <button type="submit" class="btn btn-primary calc-submit">Calcular mis ritmos</button>
+            </form>
+
+            <div class="calc-results" id="calcResults" aria-live="polite">
+              <div class="results-empty" id="resultsEmpty">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" stroke-linecap="round"/><circle cx="12" cy="12" r="4"/></svg>
+                <p>Completa el formulario para ver tus cinco zonas de ritmo,<br>el pronóstico del día y tu ritmo recomendado.</p>
+              </div>
+
+              <div id="resultsContent" style="display:none;">
+                <div id="dataSourceBadge" class="data-source-badge live">
+                  </div>
+                
+                <div class="weather-strip" id="weatherStrip"></div>
+                <div class="weather-warning" id="weatherWarning"></div>
+
+                <div class="corrections-breakdown" id="correctionsBreakdown" style="display:none;">
+                  <div class="title">Ajustes aplicados</div>
+                  <div id="correctionsList"></div>
+                </div>
+
+                <div class="recommended-pace">
+                  <div class="rp-label" id="rpZoneLabel">Ritmo recomendado</div>
+                  <div class="rp-value" id="rpValue">—<span>/km</span></div>
+                  <div class="rp-meta">
+                    <div>Tiempo estimado<strong id="rpFinishTime">—</strong></div>
+                    <div>Esfuerzo esperado<strong id="rpEffort">—</strong></div>
+                    <div>VDOT estimado<strong id="rpVdot">—</strong></div>
+                  </div>
+                </div>
+
+                <div class="zones" id="zonesList"></div>
+
+                <div class="hydration-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2.5s6.5 7.2 6.5 12a6.5 6.5 0 11-13 0c0-4.8 6.5-12 6.5-12Z"/></svg>
+                  <div id="hydrationText">—</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">El problema con las tablas genéricas</div>
+          <h2>¿Por qué entrenar por ritmos personalizados?</h2>
+          <p>Dos corredores con la misma edad y el mismo tiempo objetivo pueden tener fisiologías completamente distintas. Un ritmo genérico entrena al corredor medio; un ritmo calculado te entrena a ti.</p>
+        </header>
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8"/></svg></div>
+            <h3>Tu VDOT, no el promedio</h3>
+            <p>Partimos de tu marca real de 5&nbsp;km para estimar tu capacidad aeróbica actual, en lugar de asumir un rendimiento genérico por edad o nivel.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div>
+            <h3>El clima cambia el esfuerzo real</h3>
+            <p>Correr a tu ritmo umbral con 32°C y 80% de humedad no es el mismo esfuerzo fisiológico que hacerlo a 12°C. Ajustamos el número, no solo la sensación.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V9M12 19V5M20 19v-7"/></svg></div>
+            <h3>Cada zona tiene un propósito</h3>
+            <p>Recuperación, aeróbico, tempo, umbral y VO2máx no son etiquetas: son estímulos distintos que tu cuerpo adapta de forma diferente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">El proceso</div>
+          <h2>¿Cómo funciona el cálculo?</h2>
+          <p>Cinco pasos secuenciales convierten tu marca de 5&nbsp;km y el clima del día en un plan de ritmos accionable.</p>
+        </header>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">01</div>
+            <div><h3>Estimamos tu VDOT</h3><p>Con la ecuación de consumo de oxígeno de Jack Daniels, convertimos tu marca de 5&nbsp;km en un índice de capacidad aeróbica (VDOT) que representa tu forma física actual.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">02</div>
+            <div><h3>Derivamos las cinco zonas</h3><p>A partir del VDOT calculamos la velocidad asociada a distintos porcentajes de tu consumo máximo de oxígeno.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">03</div>
+            <div><h3>Consultamos el clima del entrenamiento</h3><p>Obtenemos temperatura, humedad, viento y sensación térmica usando la API meteorológica global de Open-Meteo.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">04</div>
+            <div><h3>Aplicamos la corrección ambiental</h3><p>Penalizamos el ritmo cuando el calor, la humedad o la sensación térmica elevan el coste fisiológico real de correr.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">05</div>
+            <div><h3>Ajustamos según la distancia</h3><p>Aplicamos una corrección de fatiga acumulada propia de las sesiones largas.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="mid-banner reveal">
+          <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1800&q=80" alt="Corredor en un sendero de montaña al atardecer" loading="lazy">
+          <div class="mid-banner-content">
+            <div class="eyebrow">Disciplina + datos</div>
+            <h3>La superación no se improvisa. Se calcula.</h3>
+            <p>El mismo rigor que usan los entrenadores de élite, adaptado a tu marca personal y al entrenamiento de hoy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">Resultados</div>
+          <h2>Beneficios de entrenar correctamente</h2>
+          <p>Entrenar en la zona correcta, con el ajuste ambiental correcto, cambia lo que tu cuerpo construye semana a semana.</p>
+        </header>
+        <div class="benefits-grid">
+          <div class="benefit-card reveal"><div class="bnum">-<span class="counter" data-target="32">0</span><sup>%</sup></div><p>Menor riesgo de sobreentrenamiento al respetar tus zonas reales.</p></div>
+          <div class="benefit-card reveal"><div class="bnum">+<span class="counter" data-target="18">0</span><sup>%</sup></div><p>Mejora percibida en la eficiencia aeróbica tras 8 semanas de rodajes en Z2.</p></div>
+          <div class="benefit-card reveal"><div class="bnum"><span class="counter" data-target="5">0</span></div><p>Zonas de intensidad diferenciadas, cada una con un objetivo fisiológico claro.</p></div>
+          <div class="benefit-card reveal"><div class="bnum"><span class="counter" data-target="100">0</span><sup>%</sup></div><p>Ritmos recalculados según el clima real de tu entrenamiento, no una media anual.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologia">
+      <div class="wrap">
+        <div class="tech-section">
+          <div class="reveal">
+            <div class="eyebrow">Bajo el capó</div>
+            <h2 style="font-size:clamp(1.8rem,3.6vw,2.4rem); margin-bottom:1rem;">Un modelo fisiológico real, no una regla de tres</h2>
+            <p style="color:var(--sage); font-size:1rem;">Altitud no aplica un simple porcentaje sobre tu marca. Usa la relación no lineal entre velocidad y consumo de oxígeno descrita por Jack Daniels, y la combina con correcciones ambientales dinámicas.</p>
+            <ul class="tech-list">
+              <li>Ecuación de consumo de oxígeno (VO2) en función de la velocidad de carrera.</li>
+              <li>Curva de %VO2máx sostenible según la duración del esfuerzo.</li>
+              <li>Zonas de intensidad definidas por porcentaje real de VO2máx, no por percepción.</li>
+              <li>Corrección por temperatura, humedad, sensación térmica y viento.</li>
+              <li>Corrección de fatiga acumulada para distancias largas.</li>
+            </ul>
+          </div>
+          <div class="reveal">
+            <div class="tech-formula" id="formulaBlock" aria-label="Fórmula matemática usada en el modelo">
+<span class="comment">// 1. Consumo de oxígeno estimado a la velocidad v (m/min)</span>
+VO2 = -4.60 + 0.182258·v + 0.000104·v²
+
+<span class="comment">// 2. % de VO2máx sostenible durante t minutos</span>
+%VO2máx(t) = 0.8 + 0.1894·e^(-0.012778t)
+              + 0.2990·e^(-0.19326t)
+
+<span class="comment">// 3. VDOT — tu capacidad aeróbica de referencia</span>
+VDOT = VO2 ÷ %VO2máx(t)
+
+<span class="comment">// 4. Corrección ambiental aplicada al ritmo final</span>
+ritmo_final = ritmo_zona
+              × (1 + corrección_temp
+                   + corrección_humedad
+                   + corrección_distancia)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">Lo que viene</div>
+          <h2>Altitud crecerá contigo</h2>
+          <p>La calculadora de ritmos es la primera pieza de una plataforma de entrenamiento completa. Esto es lo que estamos construyendo.</p>
+        </header>
+        <div class="roadmap-grid">
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Calculadora VO2Max</h4><p>Estimación directa de tu consumo máximo de oxígeno.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Calculadora VDOT</h4><p>Tu índice de rendimiento a partir de cualquier marca reciente.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Predictor de maratón</h4><p>Proyección de marca en 42,2&nbsp;km según tu forma actual.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Predictor de media maratón</h4><p>Estimación realista para los 21,1&nbsp;km.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Predictor de 10K</h4><p>Marca esperada en 10&nbsp;km según tu nivel actual.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Predictor trail running</h4><p>Ajuste por desnivel y terreno técnico.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Planificador semanal</h4><p>Distribución automática de sesiones y descanso.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Generador de entrenamientos</h4><p>Sesiones completas listas para ejecutar.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Calculadora de recuperación</h4><p>Tiempo óptimo de descanso tras esfuerzos intensos.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Carga de entrenamiento</h4><p>Balance entre carga aguda y crónica.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Calculadora nutricional</h4><p>Necesidades energéticas por sesión y por semana.</p></article>
+          <article class="roadmap-card reveal"><span class="badge">Próximamente</span><h4>Integración Garmin & Strava</h4><p>Sincroniza tu historial real de entrenamientos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <div class="eyebrow">Dudas frecuentes</div>
+          <h2>Preguntas frecuentes</h2>
+        </header>
+        <div id="faqList">
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a-1">¿Qué es el VDOT y por qué lo usáis?<span class="plus" aria-hidden="true">+</span></button>
+            <div id="faq-a-1" class="faq-a"><div class="faq-a-inner">El VDOT es un índice desarrollado por el fisiólogo Jack Daniels que representa tu capacidad aeróbica a partir de una marca real de carrera. A diferencia de una tabla de edad, refleja tu rendimiento actual concreto.</div></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a-2">¿De dónde saca Altitud los datos meteorológicos?<span class="plus" aria-hidden="true">+</span></button>
+            <div id="faq-a-2" class="faq-a"><div class="faq-a-inner">Usamos la API gratuita y de código abierto de Open-Meteo, que agrupa datos de modelos meteorológicos nacionales con alta precisión y geocodificación global en tiempo real.</div></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a-3">¿Qué pasa si hace mucho calor o humedad ese día?<span class="plus" aria-hidden="true">+</span></button>
+            <div id="faq-a-3" class="faq-a"><div class="faq-a-inner">El motor aplica una penalización progresiva sobre tus ritmos objetivo cuando la temperatura, la humedad o la sensación térmica superan los umbrales fisiológicos razonables, para que no fuerces un ritmo que ese día no corresponde a tu esfuerzo real.</div></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a-4">¿Necesito una marca reciente de 5&nbsp;km?<span class="plus" aria-hidden="true">+</span></button>
+            <div id="faq-a-4" class="faq-a"><div class="faq-a-inner">Sí, cuanto más reciente y esforzada sea tu marca de referencia, más preciso será el cálculo de tus zonas. Una marca de más de 3 meses puede no reflejar tu forma actual.</div></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a-5">¿Esto sustituye a un entrenador?<span class="plus" aria-hidden="true">+</span></button>
+            <div id="faq-a-5" class="faq-a"><div class="faq-a-inner">No. Altitud te da el número correcto para cada sesión, pero la planificación global, la progresión de cargas y la prevención de lesiones siguen siendo terreno de un buen entrenador o fisioterapeuta.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap">
+        <div class="reveal">
+          <div class="eyebrow" style="justify-content:center;">Empieza hoy</div>
+          <h2>Deja de adivinar tu ritmo. Empieza a calcularlo.</h2>
+          <div class="actions">
+            <a href="#calculadora" class="btn btn-primary">Calcular mis ritmos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>Altitud</h5>
+          <p style="color:var(--sage); font-size:0.9rem; max-width:32ch;">Plataforma de entrenamiento de running basada en fisiología real y condiciones ambientales del día.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Herramientas</h5>
+          <a href="#calculadora">Calculadora de ritmos</a>
+          <a href="#roadmap">VO2Max (próximamente)</a>
+          <a href="#roadmap">Predictor de maratón</a>
+        </div>
+        <div class="footer-col">
+          <h5>Producto</h5>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#tecnologia">Tecnología</a>
+          <a href="#faq">Preguntas frecuentes</a>
+        </div>
+        <div class="footer-col">
+          <h5>Cuenta</h5>
+          <a href="#roadmap">Panel de usuario (próximamente)</a>
+          <a href="#roadmap">Integración Garmin</a>
+          <a href="#roadmap">Integración Strava</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Altitud. Todos los ritmos, calculados.</span>
+        <span>Hecho para corredores que quieren entender el porqué.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
