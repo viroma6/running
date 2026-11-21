@@ -41,14 +41,14 @@ export const Chapter: React.FC<{id: string}> = ({id}) => {
   const prev = idx > 0 ? STOPS[idx - 1].ly : 1.58e-5; // 1 UA
   const t = frame / fps;
   const lead = ch.lead;
-  const enter = spring({frame: frame - (lead - 0.5) * fps, fps, config: {damping: 200}, durationInFrames: 2.2 * fps});
+  const enter = 0.002 + 0.998 * spring({frame: frame - (lead - 0.5) * fps, fps, config: {damping: 200}, durationInFrames: 2.2 * fps});
   const ui = spring({frame: frame - lead * fps, fps, config: {damping: 18}});
   const out = interpolate(frame, [durationInFrames - 0.6 * fps, durationInFrames], [1, 0], {extrapolateLeft: 'clamp'});
   const Visual = VISUALS[id];
   return (
     <AbsoluteFill>
       <Background accent={b.accent} />
-      <AbsoluteFill style={{opacity: out}}>{t > lead - 0.6 && <Visual ch={ch} t={t} frame={frame} enter={enter} width={width} height={height} fps={fps} />}</AbsoluteFill>
+      <AbsoluteFill style={{opacity: out}}>{t >= lead && <Visual ch={ch} t={t} frame={frame} enter={enter} width={width} height={height} fps={fps} />}</AbsoluteFill>
       {/* degradado lateral para la legibilidad del texto */}
       <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(2,3,10,0.78) 0%, rgba(2,3,10,0.35) 38%, rgba(2,3,10,0) 55%)', opacity: ui * out}} />
       <div style={{position: 'absolute', left: 140, top: 150, opacity: ui * out, translate: `${interpolate(ui, [0, 1], [-60, 0])}px 0px`}}>
