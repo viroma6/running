@@ -1,0 +1,761 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "hook",
+   "duration": 8.476,
+   "words": [
+    {
+     "text": "Si",
+     "start": 0.08,
+     "end": 0.292,
+     "phrase": 0
+    },
+    {
+     "text": "el",
+     "start": 0.292,
+     "end": 0.504,
+     "phrase": 0
+    },
+    {
+     "text": "Sol",
+     "start": 0.504,
+     "end": 0.764,
+     "phrase": 0
+    },
+    {
+     "text": "desapareciera",
+     "start": 0.764,
+     "end": 1.495,
+     "phrase": 0
+    },
+    {
+     "text": "ahora",
+     "start": 1.495,
+     "end": 1.848,
+     "phrase": 0
+    },
+    {
+     "text": "mismo,",
+     "start": 1.848,
+     "end": 2.202,
+     "phrase": 0
+    },
+    {
+     "text": "no",
+     "start": 2.522,
+     "end": 2.74,
+     "phrase": 1
+    },
+    {
+     "text": "te",
+     "start": 2.74,
+     "end": 2.958,
+     "phrase": 1
+    },
+    {
+     "text": "enterarías",
+     "start": 2.958,
+     "end": 3.564,
+     "phrase": 1
+    },
+    {
+     "text": "hasta",
+     "start": 3.564,
+     "end": 3.928,
+     "phrase": 1
+    },
+    {
+     "text": "dentro",
+     "start": 3.928,
+     "end": 4.34,
+     "phrase": 1
+    },
+    {
+     "text": "de",
+     "start": 4.34,
+     "end": 4.558,
+     "phrase": 1
+    },
+    {
+     "text": "8",
+     "start": 4.558,
+     "end": 4.727,
+     "phrase": 1
+    },
+    {
+     "text": "minutos.",
+     "start": 4.727,
+     "end": 5.236,
+     "phrase": 1
+    },
+    {
+     "text": "Y",
+     "start": 5.556,
+     "end": 5.709,
+     "phrase": 2
+    },
+    {
+     "text": "eso",
+     "start": 5.709,
+     "end": 5.949,
+     "phrase": 2
+    },
+    {
+     "text": "no",
+     "start": 5.949,
+     "end": 6.146,
+     "phrase": 2
+    },
+    {
+     "text": "es",
+     "start": 6.146,
+     "end": 6.343,
+     "phrase": 2
+    },
+    {
+     "text": "lo",
+     "start": 6.343,
+     "end": 6.539,
+     "phrase": 2
+    },
+    {
+     "text": "más",
+     "start": 6.539,
+     "end": 6.78,
+     "phrase": 2
+    },
+    {
+     "text": "loco",
+     "start": 6.78,
+     "end": 7.064,
+     "phrase": 2
+    },
+    {
+     "text": "del",
+     "start": 7.064,
+     "end": 7.304,
+     "phrase": 2
+    },
+    {
+     "text": "universo.",
+     "start": 7.304,
+     "end": 7.806,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "duration": 10.526,
+   "words": [
+    {
+     "text": "En",
+     "start": 0.08,
+     "end": 0.252,
+     "phrase": 0
+    },
+    {
+     "text": "Venus,",
+     "start": 0.252,
+     "end": 0.54,
+     "phrase": 0
+    },
+    {
+     "text": "un",
+     "start": 0.54,
+     "end": 0.712,
+     "phrase": 0
+    },
+    {
+     "text": "día",
+     "start": 0.712,
+     "end": 0.923,
+     "phrase": 0
+    },
+    {
+     "text": "dura",
+     "start": 0.923,
+     "end": 1.172,
+     "phrase": 0
+    },
+    {
+     "text": "más",
+     "start": 1.172,
+     "end": 1.382,
+     "phrase": 0
+    },
+    {
+     "text": "que",
+     "start": 1.382,
+     "end": 1.593,
+     "phrase": 0
+    },
+    {
+     "text": "un",
+     "start": 1.593,
+     "end": 1.765,
+     "phrase": 0
+    },
+    {
+     "text": "año",
+     "start": 1.765,
+     "end": 1.976,
+     "phrase": 0
+    },
+    {
+     "text": "entero.",
+     "start": 1.976,
+     "end": 2.34,
+     "phrase": 0
+    },
+    {
+     "text": "Tarda",
+     "start": 2.66,
+     "end": 3.203,
+     "phrase": 1
+    },
+    {
+     "text": "243",
+     "start": 3.203,
+     "end": 3.601,
+     "phrase": 1
+    },
+    {
+     "text": "días",
+     "start": 3.601,
+     "end": 4.072,
+     "phrase": 1
+    },
+    {
+     "text": "en",
+     "start": 4.072,
+     "end": 4.398,
+     "phrase": 1
+    },
+    {
+     "text": "girar",
+     "start": 4.398,
+     "end": 4.941,
+     "phrase": 1
+    },
+    {
+     "text": "sobre",
+     "start": 4.941,
+     "end": 5.484,
+     "phrase": 1
+    },
+    {
+     "text": "sí",
+     "start": 5.484,
+     "end": 5.81,
+     "phrase": 1
+    },
+    {
+     "text": "mismo,",
+     "start": 5.81,
+     "end": 6.353,
+     "phrase": 1
+    },
+    {
+     "text": "pero",
+     "start": 6.673,
+     "end": 7.067,
+     "phrase": 2
+    },
+    {
+     "text": "solo",
+     "start": 7.067,
+     "end": 7.462,
+     "phrase": 2
+    },
+    {
+     "text": "225",
+     "start": 7.462,
+     "end": 7.795,
+     "phrase": 2
+    },
+    {
+     "text": "en",
+     "start": 7.795,
+     "end": 8.068,
+     "phrase": 2
+    },
+    {
+     "text": "dar",
+     "start": 8.068,
+     "end": 8.401,
+     "phrase": 2
+    },
+    {
+     "text": "la",
+     "start": 8.401,
+     "end": 8.674,
+     "phrase": 2
+    },
+    {
+     "text": "vuelta",
+     "start": 8.674,
+     "end": 9.19,
+     "phrase": 2
+    },
+    {
+     "text": "al",
+     "start": 9.19,
+     "end": 9.462,
+     "phrase": 2
+    },
+    {
+     "text": "Sol.",
+     "start": 9.462,
+     "end": 9.856,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "duration": 6.27,
+   "words": [
+    {
+     "text": "Dentro",
+     "start": 0.08,
+     "end": 0.603,
+     "phrase": 0
+    },
+    {
+     "text": "del",
+     "start": 0.603,
+     "end": 0.941,
+     "phrase": 0
+    },
+    {
+     "text": "Sol",
+     "start": 0.941,
+     "end": 1.279,
+     "phrase": 0
+    },
+    {
+     "text": "cabrían",
+     "start": 1.279,
+     "end": 1.863,
+     "phrase": 0
+    },
+    {
+     "text": "1.300.000",
+     "start": 1.863,
+     "end": 2.57,
+     "phrase": 0
+    },
+    {
+     "text": "Tierras.",
+     "start": 2.57,
+     "end": 3.216,
+     "phrase": 0
+    },
+    {
+     "text": "Y",
+     "start": 3.536,
+     "end": 3.68,
+     "phrase": 1
+    },
+    {
+     "text": "aun",
+     "start": 3.68,
+     "end": 3.907,
+     "phrase": 1
+    },
+    {
+     "text": "así,",
+     "start": 3.907,
+     "end": 4.134,
+     "phrase": 1
+    },
+    {
+     "text": "es",
+     "start": 4.134,
+     "end": 4.32,
+     "phrase": 1
+    },
+    {
+     "text": "una",
+     "start": 4.32,
+     "end": 4.547,
+     "phrase": 1
+    },
+    {
+     "text": "estrella",
+     "start": 4.547,
+     "end": 4.981,
+     "phrase": 1
+    },
+    {
+     "text": "del",
+     "start": 4.981,
+     "end": 5.208,
+     "phrase": 1
+    },
+    {
+     "text": "montón.",
+     "start": 5.208,
+     "end": 5.6,
+     "phrase": 1
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "duration": 7.922,
+   "words": [
+    {
+     "text": "Una",
+     "start": 0.08,
+     "end": 0.311,
+     "phrase": 0
+    },
+    {
+     "text": "cucharadita",
+     "start": 0.311,
+     "end": 0.878,
+     "phrase": 0
+    },
+    {
+     "text": "de",
+     "start": 0.878,
+     "end": 1.067,
+     "phrase": 0
+    },
+    {
+     "text": "estrella",
+     "start": 1.067,
+     "end": 1.509,
+     "phrase": 0
+    },
+    {
+     "text": "de",
+     "start": 1.509,
+     "end": 1.698,
+     "phrase": 0
+    },
+    {
+     "text": "neutrones",
+     "start": 1.698,
+     "end": 2.181,
+     "phrase": 0
+    },
+    {
+     "text": "pesaría",
+     "start": 2.501,
+     "end": 2.941,
+     "phrase": 1
+    },
+    {
+     "text": "unos",
+     "start": 2.941,
+     "end": 3.242,
+     "phrase": 1
+    },
+    {
+     "text": "1.000",
+     "start": 3.242,
+     "end": 3.589,
+     "phrase": 1
+    },
+    {
+     "text": "millones",
+     "start": 3.589,
+     "end": 4.075,
+     "phrase": 1
+    },
+    {
+     "text": "de",
+     "start": 4.075,
+     "end": 4.284,
+     "phrase": 1
+    },
+    {
+     "text": "toneladas.",
+     "start": 4.284,
+     "end": 4.863,
+     "phrase": 1
+    },
+    {
+     "text": "Lo",
+     "start": 5.183,
+     "end": 5.407,
+     "phrase": 2
+    },
+    {
+     "text": "mismo",
+     "start": 5.407,
+     "end": 5.781,
+     "phrase": 2
+    },
+    {
+     "text": "que",
+     "start": 5.781,
+     "end": 6.055,
+     "phrase": 2
+    },
+    {
+     "text": "10.000",
+     "start": 6.055,
+     "end": 6.479,
+     "phrase": 2
+    },
+    {
+     "text": "portaaviones.",
+     "start": 6.479,
+     "end": 7.252,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "duration": 7.585,
+   "words": [
+    {
+     "text": "Las",
+     "start": 0.08,
+     "end": 0.296,
+     "phrase": 0
+    },
+    {
+     "text": "huellas",
+     "start": 0.296,
+     "end": 0.668,
+     "phrase": 0
+    },
+    {
+     "text": "de",
+     "start": 0.668,
+     "end": 0.845,
+     "phrase": 0
+    },
+    {
+     "text": "los",
+     "start": 0.845,
+     "end": 1.061,
+     "phrase": 0
+    },
+    {
+     "text": "astronautas",
+     "start": 1.061,
+     "end": 1.59,
+     "phrase": 0
+    },
+    {
+     "text": "en",
+     "start": 1.59,
+     "end": 1.767,
+     "phrase": 0
+    },
+    {
+     "text": "la",
+     "start": 1.767,
+     "end": 1.943,
+     "phrase": 0
+    },
+    {
+     "text": "Luna",
+     "start": 1.943,
+     "end": 2.198,
+     "phrase": 0
+    },
+    {
+     "text": "pueden",
+     "start": 2.518,
+     "end": 2.925,
+     "phrase": 1
+    },
+    {
+     "text": "durar",
+     "start": 2.925,
+     "end": 3.284,
+     "phrase": 1
+    },
+    {
+     "text": "millones",
+     "start": 3.284,
+     "end": 3.786,
+     "phrase": 1
+    },
+    {
+     "text": "de",
+     "start": 3.786,
+     "end": 4.001,
+     "phrase": 1
+    },
+    {
+     "text": "años.",
+     "start": 4.001,
+     "end": 4.36,
+     "phrase": 1
+    },
+    {
+     "text": "Allí",
+     "start": 4.68,
+     "end": 4.933,
+     "phrase": 2
+    },
+    {
+     "text": "no",
+     "start": 4.933,
+     "end": 5.108,
+     "phrase": 2
+    },
+    {
+     "text": "hay",
+     "start": 5.108,
+     "end": 5.321,
+     "phrase": 2
+    },
+    {
+     "text": "viento",
+     "start": 5.321,
+     "end": 5.652,
+     "phrase": 2
+    },
+    {
+     "text": "ni",
+     "start": 5.652,
+     "end": 5.827,
+     "phrase": 2
+    },
+    {
+     "text": "lluvia",
+     "start": 5.827,
+     "end": 6.157,
+     "phrase": 2
+    },
+    {
+     "text": "que",
+     "start": 6.157,
+     "end": 6.371,
+     "phrase": 2
+    },
+    {
+     "text": "las",
+     "start": 6.371,
+     "end": 6.584,
+     "phrase": 2
+    },
+    {
+     "text": "borre.",
+     "start": 6.584,
+     "end": 6.915,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "duration": 6.638,
+   "words": [
+    {
+     "text": "¿Cuál",
+     "start": 0.08,
+     "end": 0.368,
+     "phrase": 0
+    },
+    {
+     "text": "te",
+     "start": 0.368,
+     "end": 0.568,
+     "phrase": 0
+    },
+    {
+     "text": "ha",
+     "start": 0.568,
+     "end": 0.768,
+     "phrase": 0
+    },
+    {
+     "text": "volado",
+     "start": 0.768,
+     "end": 1.145,
+     "phrase": 0
+    },
+    {
+     "text": "la",
+     "start": 1.145,
+     "end": 1.345,
+     "phrase": 0
+    },
+    {
+     "text": "cabeza?",
+     "start": 1.345,
+     "end": 1.722,
+     "phrase": 0
+    },
+    {
+     "text": "Te",
+     "start": 2.042,
+     "end": 2.254,
+     "phrase": 1
+    },
+    {
+     "text": "leo",
+     "start": 2.254,
+     "end": 2.514,
+     "phrase": 1
+    },
+    {
+     "text": "en",
+     "start": 2.514,
+     "end": 2.727,
+     "phrase": 1
+    },
+    {
+     "text": "comentarios",
+     "start": 2.727,
+     "end": 3.364,
+     "phrase": 1
+    },
+    {
+     "text": "y",
+     "start": 3.684,
+     "end": 3.837,
+     "phrase": 2
+    },
+    {
+     "text": "sígueme",
+     "start": 3.837,
+     "end": 4.25,
+     "phrase": 2
+    },
+    {
+     "text": "para",
+     "start": 4.25,
+     "end": 4.532,
+     "phrase": 2
+    },
+    {
+     "text": "más",
+     "start": 4.532,
+     "end": 4.772,
+     "phrase": 2
+    },
+    {
+     "text": "secretos",
+     "start": 4.772,
+     "end": 5.228,
+     "phrase": 2
+    },
+    {
+     "text": "del",
+     "start": 5.228,
+     "end": 5.467,
+     "phrase": 2
+    },
+    {
+     "text": "universo.",
+     "start": 5.467,
+     "end": 5.968,
+     "phrase": 2
+    }
+   ]
+  }
+ ]
+}

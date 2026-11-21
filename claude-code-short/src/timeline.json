@@ -1,0 +1,785 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "hook",
+   "duration": 8.019,
+   "words": [
+    {
+     "text": "¿Sigues",
+     "start": 0.08,
+     "end": 0.41,
+     "phrase": 0
+    },
+    {
+     "text": "usando",
+     "start": 0.41,
+     "end": 0.74,
+     "phrase": 0
+    },
+    {
+     "text": "Claude",
+     "start": 0.74,
+     "end": 1.069,
+     "phrase": 0
+    },
+    {
+     "text": "Code",
+     "start": 1.069,
+     "end": 1.322,
+     "phrase": 0
+    },
+    {
+     "text": "como",
+     "start": 1.322,
+     "end": 1.574,
+     "phrase": 0
+    },
+    {
+     "text": "un",
+     "start": 1.574,
+     "end": 1.749,
+     "phrase": 0
+    },
+    {
+     "text": "simple",
+     "start": 1.749,
+     "end": 2.078,
+     "phrase": 0
+    },
+    {
+     "text": "chat?",
+     "start": 2.078,
+     "end": 2.331,
+     "phrase": 0
+    },
+    {
+     "text": "Estás",
+     "start": 2.591,
+     "end": 2.926,
+     "phrase": 1
+    },
+    {
+     "text": "desperdiciando",
+     "start": 2.926,
+     "end": 3.664,
+     "phrase": 1
+    },
+    {
+     "text": "su",
+     "start": 3.664,
+     "end": 3.865,
+     "phrase": 1
+    },
+    {
+     "text": "verdadero",
+     "start": 3.865,
+     "end": 4.379,
+     "phrase": 1
+    },
+    {
+     "text": "poder.",
+     "start": 4.379,
+     "end": 4.76,
+     "phrase": 1
+    },
+    {
+     "text": "5",
+     "start": 5.02,
+     "end": 5.182,
+     "phrase": 2
+    },
+    {
+     "text": "trucos",
+     "start": 5.182,
+     "end": 5.576,
+     "phrase": 2
+    },
+    {
+     "text": "que",
+     "start": 5.576,
+     "end": 5.832,
+     "phrase": 2
+    },
+    {
+     "text": "usan",
+     "start": 5.832,
+     "end": 6.133,
+     "phrase": 2
+    },
+    {
+     "text": "sus",
+     "start": 6.133,
+     "end": 6.388,
+     "phrase": 2
+    },
+    {
+     "text": "propios",
+     "start": 6.388,
+     "end": 6.829,
+     "phrase": 2
+    },
+    {
+     "text": "creadores.",
+     "start": 6.829,
+     "end": 7.409,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "tip1",
+   "duration": 6.978,
+   "words": [
+    {
+     "text": "Truco",
+     "start": 0.08,
+     "end": 0.505,
+     "phrase": 0
+    },
+    {
+     "text": "1.",
+     "start": 0.505,
+     "end": 0.759,
+     "phrase": 0
+    },
+    {
+     "text": "Pulsa",
+     "start": 1.019,
+     "end": 1.337,
+     "phrase": 1
+    },
+    {
+     "text": "Shift+Tab",
+     "start": 1.337,
+     "end": 1.824,
+     "phrase": 1
+    },
+    {
+     "text": "y",
+     "start": 1.824,
+     "end": 1.973,
+     "phrase": 1
+    },
+    {
+     "text": "activa",
+     "start": 1.973,
+     "end": 2.333,
+     "phrase": 1
+    },
+    {
+     "text": "el",
+     "start": 2.333,
+     "end": 2.524,
+     "phrase": 1
+    },
+    {
+     "text": "modo",
+     "start": 2.524,
+     "end": 2.799,
+     "phrase": 1
+    },
+    {
+     "text": "plan.",
+     "start": 2.799,
+     "end": 3.117,
+     "phrase": 1
+    },
+    {
+     "text": "Claude",
+     "start": 3.377,
+     "end": 3.72,
+     "phrase": 2
+    },
+    {
+     "text": "diseña",
+     "start": 3.72,
+     "end": 4.064,
+     "phrase": 2
+    },
+    {
+     "text": "la",
+     "start": 4.064,
+     "end": 4.246,
+     "phrase": 2
+    },
+    {
+     "text": "estrategia",
+     "start": 4.246,
+     "end": 4.751,
+     "phrase": 2
+    },
+    {
+     "text": "antes",
+     "start": 4.751,
+     "end": 5.054,
+     "phrase": 2
+    },
+    {
+     "text": "de",
+     "start": 5.054,
+     "end": 5.236,
+     "phrase": 2
+    },
+    {
+     "text": "tocar",
+     "start": 5.236,
+     "end": 5.54,
+     "phrase": 2
+    },
+    {
+     "text": "una",
+     "start": 5.54,
+     "end": 5.762,
+     "phrase": 2
+    },
+    {
+     "text": "sola",
+     "start": 5.762,
+     "end": 6.025,
+     "phrase": 2
+    },
+    {
+     "text": "línea.",
+     "start": 6.025,
+     "end": 6.368,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "tip2",
+   "duration": 8.163,
+   "words": [
+    {
+     "text": "Truco",
+     "start": 0.08,
+     "end": 0.482,
+     "phrase": 0
+    },
+    {
+     "text": "2.",
+     "start": 0.482,
+     "end": 0.724,
+     "phrase": 0
+    },
+    {
+     "text": "Dale",
+     "start": 0.984,
+     "end": 1.26,
+     "phrase": 1
+    },
+    {
+     "text": "una",
+     "start": 1.26,
+     "end": 1.494,
+     "phrase": 1
+    },
+    {
+     "text": "forma",
+     "start": 1.494,
+     "end": 1.813,
+     "phrase": 1
+    },
+    {
+     "text": "de",
+     "start": 1.813,
+     "end": 2.004,
+     "phrase": 1
+    },
+    {
+     "text": "verificar",
+     "start": 2.004,
+     "end": 2.493,
+     "phrase": 1
+    },
+    {
+     "text": "su",
+     "start": 2.493,
+     "end": 2.684,
+     "phrase": 1
+    },
+    {
+     "text": "trabajo:",
+     "start": 2.684,
+     "end": 3.088,
+     "phrase": 1
+    },
+    {
+     "text": "tests,",
+     "start": 3.088,
+     "end": 3.406,
+     "phrase": 1
+    },
+    {
+     "text": "comandos",
+     "start": 3.406,
+     "end": 3.853,
+     "phrase": 1
+    },
+    {
+     "text": "o",
+     "start": 3.853,
+     "end": 4.001,
+     "phrase": 1
+    },
+    {
+     "text": "el",
+     "start": 4.001,
+     "end": 4.193,
+     "phrase": 1
+    },
+    {
+     "text": "navegador.",
+     "start": 4.193,
+     "end": 4.724,
+     "phrase": 1
+    },
+    {
+     "text": "Anthropic",
+     "start": 4.984,
+     "end": 5.464,
+     "phrase": 2
+    },
+    {
+     "text": "dice",
+     "start": 5.464,
+     "end": 5.736,
+     "phrase": 2
+    },
+    {
+     "text": "que",
+     "start": 5.736,
+     "end": 5.965,
+     "phrase": 2
+    },
+    {
+     "text": "es",
+     "start": 5.965,
+     "end": 6.153,
+     "phrase": 2
+    },
+    {
+     "text": "el",
+     "start": 6.153,
+     "end": 6.341,
+     "phrase": 2
+    },
+    {
+     "text": "truco",
+     "start": 6.341,
+     "end": 6.655,
+     "phrase": 2
+    },
+    {
+     "text": "con",
+     "start": 6.655,
+     "end": 6.884,
+     "phrase": 2
+    },
+    {
+     "text": "más",
+     "start": 6.884,
+     "end": 7.114,
+     "phrase": 2
+    },
+    {
+     "text": "impacto.",
+     "start": 7.114,
+     "end": 7.553,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "tip3",
+   "duration": 7.318,
+   "words": [
+    {
+     "text": "Truco",
+     "start": 0.08,
+     "end": 0.515,
+     "phrase": 0
+    },
+    {
+     "text": "3.",
+     "start": 0.515,
+     "end": 0.776,
+     "phrase": 0
+    },
+    {
+     "text": "Cuando",
+     "start": 1.036,
+     "end": 1.499,
+     "phrase": 1
+    },
+    {
+     "text": "le",
+     "start": 1.499,
+     "end": 1.744,
+     "phrase": 1
+    },
+    {
+     "text": "corrijas,",
+     "start": 1.744,
+     "end": 2.316,
+     "phrase": 1
+    },
+    {
+     "text": "termina",
+     "start": 2.316,
+     "end": 2.833,
+     "phrase": 1
+    },
+    {
+     "text": "con:",
+     "start": 2.833,
+     "end": 3.133,
+     "phrase": 1
+    },
+    {
+     "text": "actualiza",
+     "start": 3.133,
+     "end": 3.759,
+     "phrase": 1
+    },
+    {
+     "text": "tu",
+     "start": 3.759,
+     "end": 4.004,
+     "phrase": 1
+    },
+    {
+     "text": "CLAUDE.md",
+     "start": 4.004,
+     "end": 4.63,
+     "phrase": 1
+    },
+    {
+     "text": "Así",
+     "start": 4.89,
+     "end": 5.128,
+     "phrase": 2
+    },
+    {
+     "text": "nunca",
+     "start": 5.128,
+     "end": 5.453,
+     "phrase": 2
+    },
+    {
+     "text": "repite",
+     "start": 5.453,
+     "end": 5.821,
+     "phrase": 2
+    },
+    {
+     "text": "el",
+     "start": 5.821,
+     "end": 6.015,
+     "phrase": 2
+    },
+    {
+     "text": "mismo",
+     "start": 6.015,
+     "end": 6.34,
+     "phrase": 2
+    },
+    {
+     "text": "error.",
+     "start": 6.34,
+     "end": 6.708,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "tip4",
+   "duration": 8.275,
+   "words": [
+    {
+     "text": "Truco",
+     "start": 0.08,
+     "end": 0.598,
+     "phrase": 0
+    },
+    {
+     "text": "4.",
+     "start": 0.598,
+     "end": 0.908,
+     "phrase": 0
+    },
+    {
+     "text": "Usa",
+     "start": 1.168,
+     "end": 1.443,
+     "phrase": 1
+    },
+    {
+     "text": "/clear",
+     "start": 1.443,
+     "end": 1.867,
+     "phrase": 1
+    },
+    {
+     "text": "entre",
+     "start": 1.867,
+     "end": 2.241,
+     "phrase": 1
+    },
+    {
+     "text": "tareas",
+     "start": 2.241,
+     "end": 2.666,
+     "phrase": 1
+    },
+    {
+     "text": "y",
+     "start": 2.666,
+     "end": 2.84,
+     "phrase": 1
+    },
+    {
+     "text": "/compact",
+     "start": 2.84,
+     "end": 3.364,
+     "phrase": 1
+    },
+    {
+     "text": "cuando",
+     "start": 3.364,
+     "end": 3.789,
+     "phrase": 1
+    },
+    {
+     "text": "la",
+     "start": 3.789,
+     "end": 4.013,
+     "phrase": 1
+    },
+    {
+     "text": "conversación",
+     "start": 4.013,
+     "end": 4.737,
+     "phrase": 1
+    },
+    {
+     "text": "crezca.",
+     "start": 4.737,
+     "end": 5.211,
+     "phrase": 1
+    },
+    {
+     "text": "Contexto",
+     "start": 5.471,
+     "end": 5.983,
+     "phrase": 2
+    },
+    {
+     "text": "limpio,",
+     "start": 5.983,
+     "end": 6.398,
+     "phrase": 2
+    },
+    {
+     "text": "respuestas",
+     "start": 6.398,
+     "end": 7.007,
+     "phrase": 2
+    },
+    {
+     "text": "brillantes.",
+     "start": 7.007,
+     "end": 7.665,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "tip5",
+   "duration": 7.306,
+   "words": [
+    {
+     "text": "Truco",
+     "start": 0.08,
+     "end": 0.594,
+     "phrase": 0
+    },
+    {
+     "text": "5.",
+     "start": 0.594,
+     "end": 0.903,
+     "phrase": 0
+    },
+    {
+     "text": "Lanza",
+     "start": 1.163,
+     "end": 1.54,
+     "phrase": 1
+    },
+    {
+     "text": "varias",
+     "start": 1.54,
+     "end": 1.966,
+     "phrase": 1
+    },
+    {
+     "text": "sesiones",
+     "start": 1.966,
+     "end": 2.494,
+     "phrase": 1
+    },
+    {
+     "text": "en",
+     "start": 2.494,
+     "end": 2.72,
+     "phrase": 1
+    },
+    {
+     "text": "paralelo",
+     "start": 2.72,
+     "end": 3.247,
+     "phrase": 1
+    },
+    {
+     "text": "con",
+     "start": 3.247,
+     "end": 3.523,
+     "phrase": 1
+    },
+    {
+     "text": "claude",
+     "start": 3.523,
+     "end": 3.95,
+     "phrase": 1
+    },
+    {
+     "text": "--worktree",
+     "start": 3.95,
+     "end": 4.577,
+     "phrase": 1
+    },
+    {
+     "text": "3",
+     "start": 4.837,
+     "end": 4.996,
+     "phrase": 2
+    },
+    {
+     "text": "agentes",
+     "start": 4.996,
+     "end": 5.426,
+     "phrase": 2
+    },
+    {
+     "text": "programando",
+     "start": 5.426,
+     "end": 6.038,
+     "phrase": 2
+    },
+    {
+     "text": "a",
+     "start": 6.038,
+     "end": 6.197,
+     "phrase": 2
+    },
+    {
+     "text": "la",
+     "start": 6.197,
+     "end": 6.401,
+     "phrase": 2
+    },
+    {
+     "text": "vez.",
+     "start": 6.401,
+     "end": 6.696,
+     "phrase": 2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "duration": 5.719,
+   "words": [
+    {
+     "text": "Guarda",
+     "start": 0.08,
+     "end": 0.453,
+     "phrase": 0
+    },
+    {
+     "text": "este",
+     "start": 0.453,
+     "end": 0.738,
+     "phrase": 0
+    },
+    {
+     "text": "vídeo",
+     "start": 0.738,
+     "end": 1.066,
+     "phrase": 0
+    },
+    {
+     "text": "para",
+     "start": 1.066,
+     "end": 1.351,
+     "phrase": 0
+    },
+    {
+     "text": "no",
+     "start": 1.351,
+     "end": 1.549,
+     "phrase": 0
+    },
+    {
+     "text": "olvidarlo",
+     "start": 1.549,
+     "end": 2.053,
+     "phrase": 0
+    },
+    {
+     "text": "y",
+     "start": 2.313,
+     "end": 2.538,
+     "phrase": 1
+    },
+    {
+     "text": "sígueme",
+     "start": 2.538,
+     "end": 3.149,
+     "phrase": 1
+    },
+    {
+     "text": "para",
+     "start": 3.149,
+     "end": 3.566,
+     "phrase": 1
+    },
+    {
+     "text": "más",
+     "start": 3.566,
+     "end": 3.92,
+     "phrase": 1
+    },
+    {
+     "text": "trucos",
+     "start": 3.92,
+     "end": 4.466,
+     "phrase": 1
+    },
+    {
+     "text": "de",
+     "start": 4.466,
+     "end": 4.756,
+     "phrase": 1
+    },
+    {
+     "text": "IA.",
+     "start": 4.756,
+     "end": 5.109,
+     "phrase": 1
+    }
+   ]
+  }
+ ]
+}

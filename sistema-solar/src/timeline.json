@@ -1,0 +1,703 @@
+{
+ "chapters": [
+  {
+   "id": "intro",
+   "duration": 28.393,
+   "lead": 0.6,
+   "phrases": [
+    {
+     "text": "Imagina que te subes a una nave y recorres el sistema solar entero, desde el Sol hasta su último rincón.",
+     "start": 0.6,
+     "end": 6.68,
+     "callout": null
+    },
+    {
+     "text": "Por el camino verás un planeta envuelto en nubes de ácido, una montaña dos veces y media más alta que el Everest, y un mundo gigante que flotaría en el agua.",
+     "start": 7.1,
+     "end": 16.077,
+     "callout": null
+    },
+    {
+     "text": "Son miles de millones de kilómetros, y cada parada es más extraña que la anterior.",
+     "start": 16.497,
+     "end": 21.118,
+     "callout": null
+    },
+    {
+     "text": "Y te voy a contar datos que la mayoría de la gente no conoce.",
+     "start": 21.538,
+     "end": 24.919,
+     "callout": null
+    },
+    {
+     "text": "Abróchate el cinturón. Despegamos.",
+     "start": 25.339,
+     "end": 27.373,
+     "callout": null
+    }
+   ]
+  },
+  {
+   "id": "sun",
+   "duration": 50.793,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Nuestra primera parada es el corazón de todo: el Sol.",
+     "start": 3.2,
+     "end": 6.414,
+     "callout": null
+    },
+    {
+     "text": "Es tan enorme que concentra el 99,8 % de toda la masa del sistema solar.",
+     "start": 6.834,
+     "end": 12.801,
+     "callout": [
+      "99,8 %",
+      "de la masa del sistema solar"
+     ]
+    },
+    {
+     "text": "Todo lo demás, planetas, lunas y asteroides juntos, es apenas un resto.",
+     "start": 13.221,
+     "end": 17.607,
+     "callout": null
+    },
+    {
+     "text": "Para que te hagas una idea: si el Sol fuera tan alto como la puerta de tu casa, la Tierra sería del tamaño de una moneda pequeña.",
+     "start": 18.027,
+     "end": 25.423,
+     "callout": [
+      "×109",
+      "su diámetro frente a la Tierra"
+     ]
+    },
+    {
+     "text": "En su núcleo, la temperatura alcanza unos 15 millones de grados.",
+     "start": 25.843,
+     "end": 29.826,
+     "callout": [
+      "15 M °C",
+      "en el núcleo"
+     ]
+    },
+    {
+     "text": "Allí, cada segundo, cientos de millones de toneladas de hidrógeno se fusionan en helio, liberando la energía que nos da la vida.",
+     "start": 30.246,
+     "end": 37.322,
+     "callout": null
+    },
+    {
+     "text": "La luz que sale de su superficie tarda unos 8 minutos en llegar hasta nosotros.",
+     "start": 37.742,
+     "end": 42.661,
+     "callout": [
+      "8 min 20 s",
+      "tarda su luz en llegar"
+     ]
+    },
+    {
+     "text": "Lleva brillando unos 4.600 millones de años, y aún le queda combustible para otros 5.000 millones.",
+     "start": 43.081,
+     "end": 49.773,
+     "callout": [
+      "4.600 M",
+      "años de edad"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mercury",
+   "duration": 40.907,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Seguimos hacia Mercurio, el planeta más pequeño y el más cercano al Sol.",
+     "start": 3.2,
+     "end": 7.283,
+     "callout": null
+    },
+    {
+     "text": "Es apenas un poco más grande que nuestra Luna.",
+     "start": 7.703,
+     "end": 10.62,
+     "callout": null
+    },
+    {
+     "text": "Da una vuelta completa al Sol en solo 88 días: es el más rápido de todos.",
+     "start": 11.04,
+     "end": 16.132,
+     "callout": [
+      "88 días",
+      "dura su año"
+     ]
+    },
+    {
+     "text": "Pero lo más brutal es su clima.",
+     "start": 16.552,
+     "end": 18.459,
+     "callout": null
+    },
+    {
+     "text": "Como casi no tiene atmósfera que retenga el calor, de día llega a unos 430 grados,",
+     "start": 18.879,
+     "end": 24.718,
+     "callout": [
+      "430 °C",
+      "de día"
+     ]
+    },
+    {
+     "text": "y de noche se desploma hasta 180 grados bajo cero.",
+     "start": 25.138,
+     "end": 28.99,
+     "callout": [
+      "−180 °C",
+      "de noche"
+     ]
+    },
+    {
+     "text": "Ningún otro planeta tiene un contraste tan bestial entre el día y la noche.",
+     "start": 29.41,
+     "end": 33.585,
+     "callout": null
+    },
+    {
+     "text": "Y aun así, en el fondo de algunos cráteres de sus polos, donde nunca llega la luz, se esconde hielo de agua.",
+     "start": 34.005,
+     "end": 39.887,
+     "callout": [
+      "Hielo",
+      "en cráteres en sombra eterna"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venus",
+   "duration": 46.481,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Y si Mercurio te parece extremo, espera a ver Venus.",
+     "start": 3.2,
+     "end": 6.223,
+     "callout": null
+    },
+    {
+     "text": "Aunque está casi el doble de lejos del Sol, es el planeta más caliente de todos: unos 465 grados en su superficie.",
+     "start": 6.643,
+     "end": 14.679,
+     "callout": [
+      "465 °C",
+      "el planeta más caliente"
+     ]
+    },
+    {
+     "text": "La culpa es de su atmósfera, densísima y llena de dióxido de carbono, que atrapa el calor como un invernadero descontrolado.",
+     "start": 15.099,
+     "end": 22.182,
+     "callout": null
+    },
+    {
+     "text": "La presión en el suelo es 90 veces la de la Tierra: como estar a casi un kilómetro bajo el mar.",
+     "start": 22.602,
+     "end": 28.353,
+     "callout": [
+      "×90",
+      "la presión de la Tierra"
+     ]
+    },
+    {
+     "text": "Por encima flotan nubes de ácido sulfúrico.",
+     "start": 28.773,
+     "end": 31.533,
+     "callout": null
+    },
+    {
+     "text": "Y por si fuera poco, gira al revés que casi todos los planetas: allí, el Sol sale por el oeste.",
+     "start": 31.953,
+     "end": 37.621,
+     "callout": [
+      "Oeste",
+      "por donde sale el Sol"
+     ]
+    },
+    {
+     "text": "Además, gira tan despacio que un día en Venus dura más que su año: 243 días frente a 225.",
+     "start": 38.041,
+     "end": 45.461,
+     "callout": [
+      "243 > 225",
+      "su día dura más que su año"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "earth",
+   "duration": 40.026,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Nuestra siguiente parada te resultará familiar: la Tierra.",
+     "start": 3.2,
+     "end": 6.531,
+     "callout": null
+    },
+    {
+     "text": "Es el único lugar del universo donde, por ahora, sabemos que existe la vida.",
+     "start": 6.951,
+     "end": 11.232,
+     "callout": null
+    },
+    {
+     "text": "Su superficie está cubierta en un 71 % por agua.",
+     "start": 11.652,
+     "end": 15.635,
+     "callout": [
+      "71 %",
+      "cubierto de agua"
+     ]
+    },
+    {
+     "text": "A su lado nos acompaña la Luna, que probablemente nació de un choque brutal entre la Tierra joven y un cuerpo del tamaño de Marte.",
+     "start": 16.055,
+     "end": 23.516,
+     "callout": null
+    },
+    {
+     "text": "Lo curioso es que la Luna se aleja de nosotros unos 3,8 centímetros cada año.",
+     "start": 23.936,
+     "end": 29.161,
+     "callout": [
+      "3,8 cm",
+      "se aleja la Luna cada año"
+     ]
+    },
+    {
+     "text": "Más o menos lo que crecen tus uñas en ese tiempo.",
+     "start": 29.581,
+     "end": 32.726,
+     "callout": null
+    },
+    {
+     "text": "Y ahora mismo, aunque no lo notes, viajas alrededor del Sol a unos 107.000 kilómetros por hora.",
+     "start": 33.146,
+     "end": 39.006,
+     "callout": [
+      "107.000 km/h",
+      "velocidad de la Tierra"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mars",
+   "duration": 45.765,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Ahora, rumbo a Marte, el planeta rojo.",
+     "start": 3.2,
+     "end": 5.558,
+     "callout": null
+    },
+    {
+     "text": "Su color se debe al óxido de hierro: literalmente, Marte está oxidado.",
+     "start": 5.978,
+     "end": 10.132,
+     "callout": null
+    },
+    {
+     "text": "Allí se alza el Monte Olimpo, el volcán más grande del sistema solar, con unos 22 kilómetros de altura.",
+     "start": 10.552,
+     "end": 16.946,
+     "callout": [
+      "22 km",
+      "altura del Monte Olimpo"
+     ]
+    },
+    {
+     "text": "Es dos veces y media más alto que el Everest.",
+     "start": 17.366,
+     "end": 20.095,
+     "callout": null
+    },
+    {
+     "text": "También tiene un cañón, Valles Marineris, de unos 4.000 kilómetros de largo: cruzaría Estados Unidos de costa a costa.",
+     "start": 20.515,
+     "end": 27.527,
+     "callout": [
+      "4.000 km",
+      "Valles Marineris"
+     ]
+    },
+    {
+     "text": "Su día dura casi lo mismo que el nuestro: 24 horas y 37 minutos.",
+     "start": 27.947,
+     "end": 33.061,
+     "callout": [
+      "24 h 37 min",
+      "dura un día"
+     ]
+    },
+    {
+     "text": "Sus dos pequeñas lunas, Fobos y Deimos, parecen patatas espaciales, y podrían ser asteroides capturados.",
+     "start": 33.481,
+     "end": 39.747,
+     "callout": [
+      "2",
+      "lunas: Fobos y Deimos"
+     ]
+    },
+    {
+     "text": "Por eso es el gran candidato para la primera visita humana a otro planeta.",
+     "start": 40.167,
+     "end": 44.745,
+     "callout": null
+    }
+   ]
+  },
+  {
+   "id": "jupiter",
+   "duration": 40.464,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Cruzamos el cinturón de asteroides y aparece el gigante: Júpiter.",
+     "start": 3.2,
+     "end": 7.051,
+     "callout": null
+    },
+    {
+     "text": "Es tan grande que dentro cabrían más de 1.300 Tierras.",
+     "start": 7.471,
+     "end": 11.069,
+     "callout": [
+      "1.300",
+      "Tierras cabrían dentro"
+     ]
+    },
+    {
+     "text": "Su famosa Gran Mancha Roja es una tormenta más grande que nuestro planeta entero, y lleva activa al menos 150 años.",
+     "start": 11.489,
+     "end": 19.184,
+     "callout": [
+      "150+ años",
+      "de tormenta sin parar"
+     ]
+    },
+    {
+     "text": "Y a pesar de su tamaño, gira rapidísimo: un día en Júpiter dura menos de 10 horas.",
+     "start": 19.604,
+     "end": 24.718,
+     "callout": [
+      "< 10 h",
+      "dura un día"
+     ]
+    },
+    {
+     "text": "Su campo magnético es el más potente de todos los planetas: unas 20.000 veces más intenso que el de la Tierra.",
+     "start": 25.137,
+     "end": 31.956,
+     "callout": [
+      "×20.000",
+      "campo magnético"
+     ]
+    },
+    {
+     "text": "Tiene más de 90 lunas, y una de ellas, Europa, esconde bajo su hielo un océano con más agua que todos los de la Tierra.",
+     "start": 32.376,
+     "end": 39.444,
+     "callout": [
+      "90+",
+      "lunas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "saturn",
+   "duration": 39.137,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Seguimos hacia Saturno, quizá el planeta más bonito de todos.",
+     "start": 3.2,
+     "end": 6.798,
+     "callout": null
+    },
+    {
+     "text": "Sus anillos miden cientos de miles de kilómetros de ancho, pero en muchas zonas apenas tienen una decena de metros de grosor.",
+     "start": 7.218,
+     "end": 14.162,
+     "callout": [
+      "~10 m",
+      "de grosor de sus anillos"
+     ]
+    },
+    {
+     "text": "Están hechos de incontables trozos de hielo y roca.",
+     "start": 14.582,
+     "end": 17.575,
+     "callout": null
+    },
+    {
+     "text": "Y aquí viene lo más loco: Saturno es menos denso que el agua.",
+     "start": 17.995,
+     "end": 21.637,
+     "callout": [
+      "0,69",
+      "g/cm³ · menos que el agua"
+     ]
+    },
+    {
+     "text": "Si existiera una bañera lo bastante grande, flotaría.",
+     "start": 22.057,
+     "end": 25.25,
+     "callout": null
+    },
+    {
+     "text": "Además, es el planeta con más lunas: más de 200.",
+     "start": 25.67,
+     "end": 28.757,
+     "callout": [
+      "200+",
+      "lunas"
+     ]
+    },
+    {
+     "text": "Entre ellas está Titán, con lagos y ríos de metano líquido.",
+     "start": 29.177,
+     "end": 32.647,
+     "callout": null
+    },
+    {
+     "text": "Es el único lugar, además de la Tierra, donde hemos visto líquido estable en la superficie.",
+     "start": 33.067,
+     "end": 38.117,
+     "callout": null
+    }
+   ]
+  },
+  {
+   "id": "uranus",
+   "duration": 39.235,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Llegamos a Urano, un gigante helado de color azul verdoso.",
+     "start": 3.2,
+     "end": 6.614,
+     "callout": null
+    },
+    {
+     "text": "Fue el primer planeta descubierto con telescopio, por William Herschel, en 1781.",
+     "start": 7.034,
+     "end": 13.078,
+     "callout": [
+      "1781",
+      "descubierto por Herschel"
+     ]
+    },
+    {
+     "text": "Su color se debe al metano de su atmósfera.",
+     "start": 13.498,
+     "end": 16.137,
+     "callout": null
+    },
+    {
+     "text": "Pero lo que lo hace único es que gira tumbado: su eje está inclinado unos 98 grados.",
+     "start": 16.557,
+     "end": 22.229,
+     "callout": [
+      "98°",
+      "de inclinación"
+     ]
+    },
+    {
+     "text": "Seguramente por un impacto gigantesco hace miles de millones de años.",
+     "start": 22.649,
+     "end": 26.774,
+     "callout": null
+    },
+    {
+     "text": "El resultado es que cada polo vive 42 años seguidos de luz, y después 42 de oscuridad.",
+     "start": 27.194,
+     "end": 33.582,
+     "callout": [
+      "42 años",
+      "de noche en cada polo"
+     ]
+    },
+    {
+     "text": "Y en su atmósfera se han medido más de 220 grados bajo cero.",
+     "start": 34.002,
+     "end": 38.215,
+     "callout": [
+      "−224 °C",
+      "en su atmósfera"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neptune",
+   "duration": 44.634,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Nuestra última parada entre los planetas es Neptuno.",
+     "start": 3.2,
+     "end": 6.345,
+     "callout": null
+    },
+    {
+     "text": "Es el único planeta que se encontró antes con matemáticas que con telescopio.",
+     "start": 6.765,
+     "end": 11.508,
+     "callout": null
+    },
+    {
+     "text": "En 1846, los astrónomos notaron que Urano se movía de forma extraña, calcularon dónde debía estar el culpable, y allí estaba.",
+     "start": 11.928,
+     "end": 20.839,
+     "callout": [
+      "1846",
+      "descubierto con cálculos"
+     ]
+    },
+    {
+     "text": "Sus vientos son los más rápidos del sistema solar: más de 2.000 kilómetros por hora.",
+     "start": 21.259,
+     "end": 26.202,
+     "callout": [
+      "2.000 km/h",
+      "vientos"
+     ]
+    },
+    {
+     "text": "Está tan lejos que tarda 165 años en dar una vuelta al Sol.",
+     "start": 26.622,
+     "end": 31.246,
+     "callout": [
+      "165 años",
+      "dura su año"
+     ]
+    },
+    {
+     "text": "Desde que lo descubrimos, solo ha completado una órbita, en el año 2011.",
+     "start": 31.666,
+     "end": 36.16,
+     "callout": null
+    },
+    {
+     "text": "Y su luna más grande, Tritón, gira en sentido contrario al planeta: seguramente es un mundo capturado de más allá.",
+     "start": 36.58,
+     "end": 43.614,
+     "callout": [
+      "Tritón",
+      "órbita al revés"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beyond",
+   "duration": 43.133,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Pero el viaje no termina aquí. Más allá de Neptuno está Plutón.",
+     "start": 3.2,
+     "end": 6.949,
+     "callout": null
+    },
+    {
+     "text": "Fue el noveno planeta hasta 2006, cuando pasó a considerarse un planeta enano.",
+     "start": 7.369,
+     "end": 12.465,
+     "callout": [
+      "2006",
+      "deja de ser planeta"
+     ]
+    },
+    {
+     "text": "Es más pequeño que nuestra Luna, y en 2015 la sonda New Horizons descubrió en su superficie un enorme corazón de hielo.",
+     "start": 12.885,
+     "end": 20.093,
+     "callout": [
+      "♥",
+      "corazón de hielo · 2015"
+     ]
+    },
+    {
+     "text": "Tarda 248 años en completar una sola vuelta al Sol.",
+     "start": 20.513,
+     "end": 24.856,
+     "callout": [
+      "248 años",
+      "dura su año"
+     ]
+    },
+    {
+     "text": "Y aún más lejos viaja la Voyager 1, el objeto humano más lejano jamás lanzado.",
+     "start": 25.276,
+     "end": 30.112,
+     "callout": null
+    },
+    {
+     "text": "Despegó en 1977, y ya está a más de 24.000 millones de kilómetros.",
+     "start": 30.532,
+     "end": 36.43,
+     "callout": [
+      "24.000 M km",
+      "distancia de la Voyager 1"
+     ]
+    },
+    {
+     "text": "Su señal, viajando a la velocidad de la luz, tarda casi un día entero en llegar hasta nosotros.",
+     "start": 36.85,
+     "end": 42.113,
+     "callout": [
+      "≈ 1 día",
+      "tarda su señal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "duration": 41.188,
+   "lead": 3.2,
+   "phrases": [
+    {
+     "text": "Y aquí termina nuestro viaje: del Sol a los confines del sistema solar, en unos minutos.",
+     "start": 3.2,
+     "end": 8.249,
+     "callout": null
+    },
+    {
+     "text": "Pero esto es solo el principio. Ahí fuera hay agujeros negros, estrellas que explotan y galaxias que chocan.",
+     "start": 8.669,
+     "end": 14.88,
+     "callout": null
+    },
+    {
+     "text": "Si te ha gustado el viaje, suscríbete y activa la campana para no perderte el próximo destino.",
+     "start": 15.3,
+     "end": 20.542,
+     "callout": null
+    },
+    {
+     "text": "Nos vemos entre las estrellas.",
+     "start": 20.962,
+     "end": 22.768,
+     "callout": null
+    }
+   ]
+  }
+ ]
+}
